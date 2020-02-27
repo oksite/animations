@@ -1,0 +1,70 @@
+
+.normal {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(204, 204, 204);
+  padding: 20px 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item span {
+  font-size: 14px;
+}
+
+
+.fadeIn {
+  animation: fadeIn 1s both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+      opacity: 0
+  }
+
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0
+  }
+
+  to {
+      opacity: 1
+  }
+}
+
+.fadeOut {
+  animation: fadeOut 1s both;
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+      opacity: 1
+  }
+
+  to {
+      opacity: 0
+  }
+}
+
+@keyframes fadeOut {
+  from {
+      opacity: 1
+  }
+
+  to {
+      opacity: 0
+  }
+}
+
